@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spline+Sans:wght@500&display=swap');
+
+#cursor {
+  z-index: 100;
+
+  width: max-content;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -100%);
+
+  mix-blend-mode: difference;
+
+  font-size: 1.5rem;
+  color: white;
+
+  font-family: 'Spline', sans-serif;
+}
